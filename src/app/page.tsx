@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "./globals.css"
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
+import Skills from "@/components/Skills";
 
 export default function Home(){
 
@@ -12,6 +13,7 @@ export default function Home(){
             <Hero/>
             <About/>
             <Portfolio/>
+            <Skills/>
         </div>
     );
 }
