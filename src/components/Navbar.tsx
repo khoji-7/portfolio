@@ -48,7 +48,8 @@ const Navbar = () => {
                             </Link>
                         </li>
                     ))}
-                    <li>
+                    <li> 
+                    
                         <a href="#contact" className="group">
                             <h1 className="text-lg font-bold text-white/70 cursor-pointer">Contact Me</h1>
                             <div className="relative">

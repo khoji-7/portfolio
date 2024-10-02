@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import project1 from "../assets/ecomer.png";
-import project2 from "../assets/course.png"
+// import project2 from "../assets/course.png"
 import project3 from "../assets/dummy.png"
 import project4 from "../assets//dizin.png"
 import { motion } from 'framer-motion'
@@ -20,14 +20,14 @@ const Portfolio = () =>{
             git:"https://github.com/khoji-7/e-commers",
             img: project1
         },
-        {
-            title: "Online Course",
-            desc: "An online platform offering a variety of courses for users to learn from.",
-            devstack: "Next.js, React, CSS,",
-            link: "https://online-courses-six.vercel.app/",
-            git:"https://github.com/khoji-7/online-courses",
-            img: project2
-        },
+        // {
+        //     title: "Online Course",
+        //     desc: "An online platform offering a variety of courses for users to learn from.",
+        //     devstack: "Next.js, React, CSS,",
+        //     link: "https://online-courses-six.vercel.app/",
+        //     git:"https://github.com/khoji-7/online-courses",
+        //     img: project2
+        // },
         {
             title: "Dummy",
             desc: "A dummy platform created for testing user interface design.",
