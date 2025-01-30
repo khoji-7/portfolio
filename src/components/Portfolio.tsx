@@ -12,14 +12,7 @@ import { motion } from 'framer-motion'
 const Portfolio = () =>{
 
     const projects = [
-        {
-            title: "E-Commerce",
-            desc: "An online shopping platform where users can browse products, add them to the cart, and make purchases.",
-            devstack: "Next.js, React, Tailwind CSS, ",
-            link: "https://e-commers-omega.vercel.app/",
-            git:"https://github.com/khoji-7/e-commers",
-            img: project1
-        },
+        
         {
             title: "Movie Platform",
             desc: "It is used to view information about movies and TV series and get details about them using TMDB.",
@@ -27,6 +20,14 @@ const Portfolio = () =>{
             link: "https://movie-eosin-six.vercel.app/",
             git:"https://github.com/khoji-7/movie",
             img: project2
+        },
+        {
+            title: "E-Commerce",
+            desc: "An online shopping platform where users can browse products, add them to the cart, and make purchases.",
+            devstack: "Next.js, React, Tailwind CSS, ",
+            link: "https://e-commers-omega.vercel.app/",
+            git:"https://github.com/khoji-7/e-commers",
+            img: project1
         },
         {
             title: "Dummy",
