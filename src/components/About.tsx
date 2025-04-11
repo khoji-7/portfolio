@@ -10,7 +10,7 @@ import finance from "../assets/finance.png"
 const About = () => {
   return (
     <div className='max-w-[1200px] mx-auto' id='about'>
-       <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4'>
+       <h1 className=' text-black text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4'>
             About
             <span className='text-orange-400 '> Me
             </span>
@@ -24,10 +24,10 @@ const About = () => {
                     <div className='flex flex-row p-6 mt-4'>
                         <Image src={book} alt='book' className='w-auto h-[140px]'/>
                         <div>
-                             <h2 className='text-2xl font-bold text-white/80'>
+                             <h2 className='text-2xl font-bold  text-black/80'>
                                 Education
                             </h2>
-                            <p className='text-lg text-white/70'>
+                            <p className='text-lg  text-black/70'>
                                     I hold a degree in Computer Science and I am focusing on technologies like React, Next.js and Tailwind Css
                             </p>
                         </div>
@@ -39,10 +39,10 @@ const About = () => {
                     <div className='flex flex-row p-6 mt-4'>
                         <Image src={pc} alt='pc' className='w-auto h-[140px]'/>
                         <div>
-                             <h2 className='text-2xl font-bold text-white/80'>
+                             <h2 className='text-2xl font-bold  text-black/80'>
                                 Problem-Solving
                             </h2>
-                            <p className='text-lg text-white/70'>
+                            <p className='text-lg  text-black/70'>
                                     I approach challenges with a logical and systematic mindest
                             </p>
                         </div>
@@ -55,10 +55,10 @@ const About = () => {
                     <div className='flex flex-row p-6 mt-4'>
                         <Image src={card} alt='card' className='w-auto h-[140px]'/>
                         <div>
-                             <h2 className='text-2xl font-bold text-white/80'>
+                             <h2 className='text-2xl font-bold  text-black/80'>
                                 Experience
                             </h2>
-                            <p className='text-lg text-white/70'>
+                            <p className='text-lg  text-black/70'>
                                     I have a diverse portfolio of projects.
                             </p>
                         </div>
@@ -71,10 +71,10 @@ const About = () => {
                     <div className='flex flex-row p-6 mt-4'>
                         <Image src={finance} alt='finanse' className='w-auto h-[140px]'/>
                         <div>
-                             <h2 className='text-2xl font-bold text-white/80'>
+                             <h2 className='text-2xl font-bold  text-black/80'>
                                 Technical Skills
                             </h2>
-                            <p className='text-lg text-white/70'>
+                            <p className='text-lg  text-black/70'>
                                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit perferendis impedit doloribus vero. Culpa, et. Doloribus quis, officia voluptas dolore suscipit omnis commodi dolor, voluptate minima neque, laborum itaque veritatis!
                             </p>
                         </div>
